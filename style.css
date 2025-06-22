@@ -1,0 +1,435 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* width */
+.w20 {
+    width: 20%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w45 {
+    width: 45%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w60 {
+    width: 60%;
+}
+
+.w80 {
+    width: 80%;
+}
+
+.ibrown {
+    color: #dfa974;
+}
+
+/* header */
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+div[class^="nav"] {
+    height: 50px;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    padding-right: 40px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.nav-left h2 {
+    font-size: 16px;
+    color: #19191a;
+    font-weight: 500;
+}
+
+.nav-mid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.email h2 {
+    font-size: 16px;
+    color: #19191a;
+    font-weight: 500;
+}
+
+.nav-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-icon i {
+    color: #19191a;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right a {
+    padding: 16px;
+    width: 180px;
+    background-color: #dfa974;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.en {
+    display: flex;
+    align-items: center;
+
+}
+
+.en select {
+    border: none;
+    outline: none;
+
+}
+
+/* menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.menu-left {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.menu-mid ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 290px;
+}
+
+.menu-mid a {
+    text-decoration: none;
+    color: #19191a;
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.menu-mid a:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #dfa974;
+    transition: 0.1s;
+
+}
+
+.menu-right i {
+    padding-left: 70px;
+    cursor: pointer;
+}
+
+/* section */
+.main {
+    position: relative;
+}
+.main img{
+    width: 100%;
+    height: 750px;
+}
+.content {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    align-items: center;
+    top: 100px;
+    translate: 20%;
+}
+
+/* c1 */
+.c1 {
+    color: white;
+    width: 46%;
+}
+
+.c1 h1 {
+    font-size: 65px;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+
+.c1 p {
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.c1 a {
+    font-size: 16px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #dfa974;
+    color: white;
+    font-weight: 600;
+}
+
+/* c2 */
+.c2 {
+    width: 40%;
+}
+
+.form {
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.form form {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1px;
+    gap: 10px;
+}
+
+.form h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+
+}
+
+.form input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 9px;
+    outline: none;
+    border: 1px solid #dfa974;
+}
+
+.inp-main {
+    position: relative;
+}
+
+.inp {
+    position: absolute;
+    color: #dfa974;
+    top: 40px;
+    right: 10px;
+}
+
+.form select {
+    width: 100%;
+    padding: 15px;
+    margin-top: 9px;
+    border: 1px solid #dfa974;
+    outline: none;
+    cursor: pointer;
+}
+
+.form button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 9px;
+    outline: none;
+    border: 1px solid #dfa974;
+    cursor: pointer;
+    color: #dfa974;
+    background-color: white;
+}
+
+/* section-about */
+.about-main {
+    padding: 100px;
+    padding-bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #dfa974;
+}
+
+.a1 {
+    text-align: center;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    margin-top: -55px;
+
+}
+
+.a1 h2 {
+    line-height: 50px;
+    margin: 10px 0px;
+    font-size: 44px;
+    color: #19191a;
+    font-family: serif;
+    font-weight: 300;
+}
+
+.a1 h3 {
+    font-size: 15px;
+    color: #dfa974;
+    font-weight: 550;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+
+.a1 p {
+    line-height: 25px;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #595960;
+    font-weight: 500;
+}
+
+.a1 a {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #19191a;
+    text-decoration: none;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #dfa974;
+}
+
+/* section3 */
+.card {
+    width: 100%;
+}
+
+.card1 {
+    margin-top: 120px;
+    font-family: sans-serif;
+}
+
+.card1 h2 {
+    font-size: 44px;
+    color: #19191a;
+    line-height: 58px;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    font-family: serif;
+}
+
+.card1 h3 {
+    font-size: 14px;
+    color: #dfa974;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.card2 {
+    text-align: center;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.ca1 {
+    width: 28%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 22px;
+    padding: 20px 35px;
+}
+
+.ca1:hover {
+    transition: 300ms;
+    background-color: #dfa974;
+}
+.ca1:hover .wite{
+   color: white;
+}
+
+.ca1 i {
+    font-size: 45px;
+    color: #dfa974;
+
+
+}
+
+
+.ca1>p {
+    line-height: 25px;
+    color: #777777;
+    font-size: 14px;
+}
+
+
+.ca1>h3 {
+    font-family: serif;
+    font-size: 24px;
+ font-weight: 400;
+}
+
+
+/* section4 */
+.container{
+    width: 100%;
+}
+.i1{
+ height: 500px;
+}
+.i1 img{
+    width: 23%;
+    height: 100%;
+}
