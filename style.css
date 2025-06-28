@@ -155,7 +155,7 @@ div[class^="nav"] {
     text-decoration: none;
     color: #19191a;
     font-size: 16px;
-    font-weight: 550;
+    font-weight: 500;
 }
 
 .menu-mid a:hover {
@@ -642,7 +642,7 @@ div[class^="nav"] {
 }
 
 .s6-text h4 {
-    width: 118px;
+    display: inline-block;
     padding: 8px 15px;
     background-color: #dfa974;
     border-radius: 3px;
@@ -672,27 +672,132 @@ div[class^="nav"] {
 /* footer */
 .ft-main {
     width: 100%;
-    height: 250px;
+    height: 300px;
     display: flex;
     justify-content: space-around;
-    background-color: #595960;
+    background-color: #222736;
+    margin-top: -220px;
 
 }
 
-.ft-card {}
+.ft-main2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.ft-card {
+    color: #aaaab3;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ft-card h2 {
+    font-size: 14px;
+    color: #dfa974;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.ft-card i {
+    font-size: 14px;
+    color: white;
+    border: 1px solid #939191;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+.ft-card i:hover {
+    background-color: #dfa974;
+    transition: 0.2s;
+}
+
+.ft-card p {
+    line-height: 25px;
+}
+
+.ft-card2 p {
+    line-height: 30px;
+}
+
+.email1 {
+    width: 80%;
+    height: 50px;
+    border-radius: 2px;
+    background: #393D4A;
+    border: none;
+    font-size: 16px;
+
+}
+
+.email1 input {
+    width: 100%;
+    height: 50px;
+    border-radius: 2px;
+    background: #393D4A;
+    border: none;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #707079;
+    outline: none;
+}
+
+.email1 i {
+
+    border-radius: 2px;
+    background: #dfa974;
+    border: none;
+    padding: 17px;
+    font-size: 16px;
+    color: white;
+    margin: auto;
+}
 
 .ft-last {
+
+    width: 100%;
+    height: 100px;
+    background-color: #191d29;
+
+}
+
+.ft-last a {
+    text-decoration: none;
+    color: #aaaab3;
+    font-size: 16px;
+
+}
+
+.ft-last-main {
+    width: 80%;
+    margin:auto;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
 }
 
-.ft-left {}
+.ft-left {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
 
-
+.ft-right {
+    color: #6b6b6b;
+    width: 40%;
+    text-align: right;
+        line-height: 25px;
+}
 
 .ft-right a {
     color: #007bff;
     text-decoration: none;
+
 }
 
 .ft-right a:hover {
